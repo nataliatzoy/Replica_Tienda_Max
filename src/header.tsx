@@ -45,7 +45,7 @@ const HeaderMax = () => {
               </button>
             </div>
 
-            <button className="bg-[#111827] gap-2 w-62 h-10 flex items-center rounded-full overflow-hidden cursor-pointer text-white">
+            <button className="bg-[#111827] gap-2 w-70 h-10 flex items-center rounded-full overflow-hidden cursor-pointer text-white">
               <div className="flex flex-row justify-center items-center w-full h-full">
                 <PiMapPinAreaFill className="text-white text-xl" />
                 <p className="pl-2">Tu ubicación:</p>
