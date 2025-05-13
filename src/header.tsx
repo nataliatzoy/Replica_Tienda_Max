@@ -19,15 +19,19 @@ const HeaderMax = () => {
     <>
       <section>
         <nav className="bg-[#fe0000] w-full h-18 flex justify-center items-center">
-          <div className="flex flex-row justify-between items-center w-[90%] max-w-7xl">
+          <div className="flex flex-row justify-between items-center w-[95%] max-w-7xl gap-5">
             <img
               src="https://guate502.com/wp-content/uploads/tiendas-max-logo.webp"
               alt=""
               className="w-20 h-18"
-              
             />
 
-            <div className="bg-white w-6/12 h-10 flex items-center rounded-full overflow-hidden">
+            <div className="bg-[#d70000] w-36 h-10  flex   items-center text-white rounded-lg justify-center">
+              <PiSquaresFourFill className="text-2xl" />
+              <p className="text-lg">Categorías</p>
+            </div>
+
+            <div className="bg-white w-5/12 h-10 flex items-center rounded-full overflow-hidden">
               <input
                 type="text"
                 placeholder="Buscar..."
@@ -52,7 +56,7 @@ const HeaderMax = () => {
 
             <div className="gap-2 w-32 h-10 flex items-center justify-center rounded-full overflow-hidden cursor-pointer text-white text-2xl">
               <IoPersonCircleSharp className="" />
-              <p className="text-lg">Mi cuenta</p>
+              <p className="text-sm font-bold">Mi cuenta</p>
             </div>
 
             <div className="relative flex items-center cursor-pointer text-white text-base">
@@ -60,54 +64,49 @@ const HeaderMax = () => {
               <span className="absolute top-[-9px] right-13 bg-black text-white text-xs font-bold rounded-full h-4 w-4 flex items-center justify-center">
                 0
               </span>
-              <p className="ml-2">Carrito</p>
+              <p className="ml-2 font-bold">Carrito</p>
             </div>
           </div>
         </nav>
 
         <nav className=" flex flex-row justify-between w-full h-16 items-center">
-          <div className="w-10/12 flex justify-around bg-amber-300">
-            <ul className="w-full flex flex-row items-center pl-5 text-base justify-between">
-              <li className="flex items-center gap-2">
-                <PiSquaresFourFill />
-                Menú
-              </li>
-              |
-              <li className="flex items-center gap-2">
+          <div className="w-8/12 flex justify-around mx-6">
+            <ul className="w-full flex flex-row items-center  text-base justify-between font-semibold text-slate-700 ">
+              <li className="flex items-center gap-1 hover:text-slate-500">
                 <BiSolidOffer />
                 Ofertas
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-1 hover:text-slate-500">
                 <RiShoppingBag4Line />
                 Marcas
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-1 hover:text-slate-500">
                 <BsShopWindow />
                 Tienda
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-1 hover:text-slate-500">
                 <MdMenuBook />
                 Catálogo
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-1 hover:text-slate-500">
                 <LuTag />
-                Puntos Max
+                Puntos MAX
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-1 hover:text-slate-500">
                 <GiBigDiamondRing />
-                Bodas Max
+                Bodas MAX
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-1 hover:text-slate-500">
                 <BiSolidPlaneAlt />
-                Viajes Max
+                Viajes MAX
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center gap-1 hover:text-slate-500 ">
                 <TbProgressHelp />
                 Servicios Max
               </li>
             </ul>
           </div>
-          <div className="mx-15 w-2/12">
+          <div className="mx-8 w-2/12">
             <div className="gap-2 flex-1 h-10 flex items-center justify-center rounded-full overflow-hidden cursor-pointer text-black text-lg border border-black">
               <RiTruckLine className="text-base" />
               <p className="font-bold">Rastrear Pedido</p>
