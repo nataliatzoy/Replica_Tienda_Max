@@ -1,21 +1,24 @@
 import './App.css'
-import Carrusel from './carrusel'
+import Main from './body'
+import Footer from './footer'
+
 import HeaderMax from './header'
-import Ofertas from './ofertas'
+
 
 function App() {
   
 
   return (
     <>
-    <header>
+    <div>
       <HeaderMax />
-    </header>
+      <Main/>
+      <Footer />
+    </div>
+      
+    
 
-    <body>
-      <Carrusel/>
-      <Ofertas/>
-    </body>
+    
       
 
     </>

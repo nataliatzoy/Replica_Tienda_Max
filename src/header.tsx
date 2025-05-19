@@ -17,7 +17,7 @@ import { RiTruckLine } from "react-icons/ri";
 const HeaderMax = () => {
   return (
     <>
-      <section>
+      <section className="relative">
         <nav className="bg-[#fe0000] w-full h-18 flex justify-center items-center">
           <div className="flex flex-row justify-between items-center w-[95%] max-w-7xl gap-5">
             <img
